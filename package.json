@@ -1,0 +1,77 @@
+{
+  "name": "dsh-provider",
+  "version": "1.4.2",
+  "description": "DSH model provider plugin. One settings page for API keys, official login, local engines, and search tools. · DSH 模型供应商插件。在「模型配置」里管理 API Key、官方登录、本机引擎和检索。",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./client": "./dist/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "src",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@12.3.4",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "meta": {
+    "title": "dsh-provider",
+    "description": "DSH model providers: API keys, official login, local engines, and search tools."
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-provider",
+    "llm-provider"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyong2024/dsh-provider.git"
+  },
+  "homepage": "https://github.com/Lyong2024/dsh-provider#readme",
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": "^3.18.2"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node scripts/copy-assets.ts",
+    "typecheck": "tsc -p tsconfig.json --pretty false --noEmit",
+    "test": "node --test test/*.mjs",
+    "test:context-host": "node --test test/context-host.mjs",
+    "test:matrix": "tsx --test --test-concurrency=1 tests/catalog-contract.test.ts tests/provider-matrix.test.ts tests/routes.test.ts tests/client-contract.test.ts tests/official-login.test.ts tests/platform-models.test.ts tests/dsh-home-env.test.ts tests/readme-sync.test.ts",
+    "test:host": "pnpm run build && tsx --test --test-timeout=180000 tests/clean-host.test.ts",
+    "test:stability": "pnpm run build && tsx --test --test-timeout=900000 tests/stability.test.ts",
+    "test:acceptance": "pnpm run build && tsx --test --test-concurrency=1 --test-timeout=900000 tests/catalog-contract.test.ts tests/provider-matrix.test.ts tests/routes.test.ts tests/client-contract.test.ts tests/official-login.test.ts tests/platform-models.test.ts tests/dsh-home-env.test.ts tests/readme-sync.test.ts tests/clean-host.test.ts tests/stability.test.ts"
+  },
+  "devDependencies": {
+    "@deepseek-ai/schemastery": "^3.18.2",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

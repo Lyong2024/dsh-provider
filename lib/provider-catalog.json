@@ -1,0 +1,954 @@
+[
+  {
+    "id": "zhinao360",
+    "name": "360智脑",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "ZHINAO_API_KEY",
+    "baseUrl": "https://api.360.cn/v1"
+  },
+  {
+    "id": "abliteration",
+    "name": "Abliteration",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "ABLITERATION_API_KEY",
+    "baseUrl": "https://api.abliteration.ai/v1"
+  },
+  {
+    "id": "aiand",
+    "name": "ai&",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "AIAND_API_KEY",
+    "baseUrl": "https://api.aiand.com/v1"
+  },
+  {
+    "id": "aimlapi",
+    "name": "AIML API",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "AIMLAPI_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "alibaba-coding-plan",
+    "name": "Alibaba Coding Plan",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "ALIBABA_CODING_PLAN_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "alibaba-token-plan",
+    "name": "Alibaba Token Plan",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "ALIBABA_TOKEN_PLAN_API_KEY",
+    "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1"
+  },
+  {
+    "id": "amazon-bedrock",
+    "name": "Amazon Bedrock",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "kind": "login",
+    "api": "anthropic-messages",
+    "env": "ANTHROPIC_API_KEY",
+    "baseUrl": "https://api.anthropic.com"
+  },
+  {
+    "id": "antigravity-cli",
+    "name": "Antigravity CLI",
+    "kind": "login",
+    "api": "google-generative-ai",
+    "env": "",
+    "baseUrl": "https://antigravity.google"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "kind": "local",
+    "api": "openai-completions",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "azure",
+    "name": "Azure",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "AZURE_OPENAI_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "baseten",
+    "name": "Baseten",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "BASETEN_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "bedrock-mantle",
+    "name": "Bedrock Mantle",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "AWS_BEARER_TOKEN_BEDROCK",
+    "baseUrl": "https://bedrock-mantle.{region}.api.aws/openai/v1"
+  },
+  {
+    "id": "bifrost",
+    "name": "Bifrost",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "BIFROST_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "CEREBRAS_API_KEY",
+    "baseUrl": "https://api.cerebras.ai/v1"
+  },
+  {
+    "id": "charm-hyper",
+    "name": "Charm Hyper",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "CHARM_HYPER_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "chutes",
+    "name": "Chutes",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "CHUTES_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "cline-pass",
+    "name": "Cline Pass",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "CLINE_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "cloudflare-ai-gateway",
+    "name": "Cloudflare AI Gateway",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "CLOUDFLARE_AI_GATEWAY_API_KEY",
+    "baseUrl": "https://gateway.ai.cloudflare.com/v1/<account>/<gateway>/anthropic"
+  },
+  {
+    "id": "cloudflare-workers-ai",
+    "name": "Cloudflare Workers AI",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "CLOUDFLARE_API_TOKEN",
+    "baseUrl": "https://api.cloudflare.com/client/v4/accounts/<account>/ai/run"
+  },
+  {
+    "id": "commandcode",
+    "name": "Command Code",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "COMMAND_CODE_API_KEY",
+    "baseUrl": "https://api.commandcode.ai/provider"
+  },
+  {
+    "id": "coralbricks",
+    "name": "CoralBricks",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "CORAL_API_KEY",
+    "baseUrl": "https://inference.coralbricks.ai/v1"
+  },
+  {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "COREWEAVE_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "CURSOR_ACCESS_TOKEN",
+    "baseUrl": ""
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "DEEPINFRA_API_KEY",
+    "baseUrl": "https://api.deepinfra.com/v1/openai"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "DEEPSEEK_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "DEVIN_API_KEY",
+    "baseUrl": "https://server.codeium.com"
+  },
+  {
+    "id": "devin-cli",
+    "name": "Devin CLI",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "devin-windsurf",
+    "name": "Devin Windsurf",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "exa",
+    "name": "Exa",
+    "kind": "search",
+    "api": "openai-completions",
+    "env": "EXA_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "factory-droid",
+    "name": "Factory Droid",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "",
+    "baseUrl": "https://api.factory.ai"
+  },
+  {
+    "id": "firepass",
+    "name": "Fire Pass",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "FIREPASS_API_KEY",
+    "baseUrl": "https://api.fireworks.ai/inference/v1"
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "FIREWORKS_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "COPILOT_GITHUB_TOKEN",
+    "baseUrl": ""
+  },
+  {
+    "id": "gitlab-duo",
+    "name": "GitLab Duo",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "GITLAB_TOKEN",
+    "baseUrl": ""
+  },
+  {
+    "id": "gitlab-duo-agent",
+    "name": "GitLab Duo Agent",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "GITLAB_TOKEN",
+    "baseUrl": "https://gitlab.com"
+  },
+  {
+    "id": "gmi-cloud",
+    "name": "GMI Cloud",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "GMI_API_KEY",
+    "baseUrl": "https://api.gmi-serving.com/v1"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "kind": "login",
+    "api": "google-generative-ai",
+    "env": "GEMINI_API_KEY",
+    "baseUrl": "https://generativelanguage.googleapis.com/v1beta"
+  },
+  {
+    "id": "google-antigravity",
+    "name": "Google Antigravity",
+    "kind": "login",
+    "api": "google-generative-ai",
+    "env": "",
+    "baseUrl": "https://daily-cloudcode-pa.googleapis.com"
+  },
+  {
+    "id": "google-vertex",
+    "name": "Google Vertex",
+    "kind": "api",
+    "api": "google-generative-ai",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "GROQ_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "helmcode",
+    "name": "Helmcode",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "HELMCODE_API_KEY",
+    "baseUrl": "https://api.helmcode.com/v1"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "HUGGINGFACE_HUB_TOKEN",
+    "baseUrl": "https://router.huggingface.co/v1"
+  },
+  {
+    "id": "inception",
+    "name": "Inception",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "INCEPTION_API_KEY",
+    "baseUrl": "https://api.inceptionlabs.ai/v1"
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi",
+    "kind": "search",
+    "api": "openai-completions",
+    "env": "KAGI_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "kilo",
+    "name": "Kilo",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "KILO_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "kimi-code",
+    "name": "Kimi Code",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "KIMI_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "KIRO_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "liquid",
+    "name": "Liquid",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "LIQUID_API_KEY",
+    "baseUrl": "https://api.liquid.ai"
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "LITELLM_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "llama.cpp",
+    "name": "llama.cpp",
+    "kind": "local",
+    "api": "openai-completions",
+    "env": "LLAMA_CPP_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "lm-studio",
+    "name": "LM Studio",
+    "kind": "local",
+    "api": "openai-completions",
+    "env": "LM_STUDIO_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "local",
+    "name": "Local",
+    "kind": "local",
+    "api": "openai-completions",
+    "env": "",
+    "baseUrl": "local://inference"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "MODEL_API_KEY",
+    "baseUrl": "https://api.meta.ai/v1"
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "MINIMAX_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "minimax-code",
+    "name": "MiniMax Code",
+    "kind": "login",
+    "api": "anthropic-messages",
+    "env": "MINIMAX_CODE_API_KEY",
+    "baseUrl": "https://api.minimax.io/anthropic"
+  },
+  {
+    "id": "minimax-code-cn",
+    "name": "MiniMax Code CN",
+    "kind": "login",
+    "api": "anthropic-messages",
+    "env": "MINIMAX_CODE_CN_API_KEY",
+    "baseUrl": "https://api.minimaxi.com/anthropic"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "MISTRAL_API_KEY",
+    "baseUrl": "https://api.mistral.ai/v1"
+  },
+  {
+    "id": "modal",
+    "name": "Modal",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "MODAL_PROXY_TOKEN",
+    "baseUrl": ""
+  },
+  {
+    "id": "modular",
+    "name": "Modular",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "MODULAR_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "MOONSHOT_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "muse-code",
+    "name": "Muse Code",
+    "kind": "login",
+    "api": "openai-responses",
+    "env": "",
+    "baseUrl": "https://api.meta.ai/v1"
+  },
+  {
+    "id": "nace",
+    "name": "Nace",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "NACE_API_KEY",
+    "baseUrl": "https://console.nace.ai"
+  },
+  {
+    "id": "nanogpt",
+    "name": "NanoGPT",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "NANO_GPT_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "novita",
+    "name": "Novita",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "NOVITA_API_KEY",
+    "baseUrl": "https://api.novita.ai/openai/v1"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "NVIDIA_API_KEY",
+    "baseUrl": "https://integrate.api.nvidia.com/v1"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "kind": "local",
+    "api": "openai-responses",
+    "env": "OLLAMA_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "ollama-cloud",
+    "name": "Ollama Cloud",
+    "kind": "local",
+    "api": "openai-completions",
+    "env": "OLLAMA_CLOUD_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "OPENAI_API_KEY",
+    "baseUrl": "https://api.openai.com/v1"
+  },
+  {
+    "id": "openai-codex",
+    "name": "OpenAI Codex",
+    "kind": "login",
+    "api": "openai-responses",
+    "env": "OPENAI_CODEX_OAUTH_TOKEN",
+    "baseUrl": "https://chatgpt.com/backend-api"
+  },
+  {
+    "id": "openai-codex-device",
+    "name": "OpenAI Codex Device",
+    "kind": "login",
+    "api": "openai-responses",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "opencode-go",
+    "name": "OpenCode Go",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "OPENCODE_API_KEY",
+    "baseUrl": "https://opencode.ai/inference/systemone"
+  },
+  {
+    "id": "opencode-zen",
+    "name": "OpenCode Zen",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "OPENCODE_API_KEY",
+    "baseUrl": "https://opencode.ai/zen"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "OPENROUTER_API_KEY",
+    "baseUrl": "https://openrouter.ai/api/v1"
+  },
+  {
+    "id": "otari",
+    "name": "Otari",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "OTARI_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "parallel",
+    "name": "Parallel",
+    "kind": "search",
+    "api": "openai-completions",
+    "env": "PARALLEL_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "kind": "search",
+    "api": "openai-completions",
+    "env": "PERPLEXITY_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "qianfan",
+    "name": "Qianfan",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "QIANFAN_API_KEY",
+    "baseUrl": "https://qianfan.baidubce.com/v2"
+  },
+  {
+    "id": "qwen-portal",
+    "name": "Qwen Portal",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "QWEN_OAUTH_TOKEN",
+    "baseUrl": "https://portal.qwen.ai/v1"
+  },
+  {
+    "id": "sakana",
+    "name": "Sakana",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "SAKANA_API_KEY",
+    "baseUrl": "https://api.sakana.ai/v1"
+  },
+  {
+    "id": "sambanova",
+    "name": "SambaNova",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SAMBANOVA_API_KEY",
+    "baseUrl": "https://api.sambanova.ai/v1"
+  },
+  {
+    "id": "scaleway",
+    "name": "Scaleway",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SCW_SECRET_KEY",
+    "baseUrl": "https://api.scaleway.ai/v1"
+  },
+  {
+    "id": "siliconflow",
+    "name": "SiliconFlow",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SILICONFLOW_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "siliconflow-cn",
+    "name": "SiliconFlow CN",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SILICONFLOW_CN_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "singularityapi-dev",
+    "name": "SingularityAPI Dev",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SINGULARITYAPI_DEV_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "singularityapi-tech",
+    "name": "SingularityAPI Tech",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SINGULARITYAPI_TECH_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "SNOWFLAKE_PAT",
+    "baseUrl": "https://snowflake-account.invalid/api/v2/cortex"
+  },
+  {
+    "id": "stepfun",
+    "name": "StepFun",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "STEPFUN_API_KEY",
+    "baseUrl": "https://api.stepfun.ai/v1"
+  },
+  {
+    "id": "synthetic",
+    "name": "Synthetic",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SYNTHETIC_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily",
+    "kind": "search",
+    "api": "openai-completions",
+    "env": "TAVILY_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "together",
+    "name": "Together",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "TOGETHER_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "typesafe",
+    "name": "TypeSafe",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "TYPESAFE_API_KEY",
+    "baseUrl": "https://api.typesafe.ai"
+  },
+  {
+    "id": "umans",
+    "name": "Umans",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "UMANS_AI_CODING_PLAN_API_KEY",
+    "baseUrl": "https://api.code.umans.ai"
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "VENICE_API_KEY",
+    "baseUrl": "https://api.venice.ai/api/v1"
+  },
+  {
+    "id": "vercel-ai-gateway",
+    "name": "Vercel AI Gateway",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "AI_GATEWAY_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "kind": "local",
+    "api": "openai-completions",
+    "env": "VLLM_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "wafer-serverless",
+    "name": "Wafer Serverless",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "WAFER_SERVERLESS_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "web",
+    "name": "Web",
+    "kind": "search",
+    "api": "openai-completions",
+    "env": "",
+    "baseUrl": "web://search"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "kind": "api",
+    "api": "openai-responses",
+    "env": "XAI_API_KEY",
+    "baseUrl": "https://api.x.ai/v1"
+  },
+  {
+    "id": "xai-oauth",
+    "name": "xAI OAuth",
+    "kind": "login",
+    "api": "openai-responses",
+    "env": "XAI_OAUTH_TOKEN",
+    "baseUrl": "https://api.x.ai/v1"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "XIAOMI_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "xiaomi-token-plan-ams",
+    "name": "Xiaomi Token Plan AMS",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "XIAOMI_TOKEN_PLAN_AMS_API_KEY",
+    "baseUrl": "https://token-plan-ams.xiaomimimo.com/v1"
+  },
+  {
+    "id": "xiaomi-token-plan-cn",
+    "name": "Xiaomi Token Plan CN",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "XIAOMI_TOKEN_PLAN_CN_API_KEY",
+    "baseUrl": "https://token-plan-cn.xiaomimimo.com/v1"
+  },
+  {
+    "id": "xiaomi-token-plan-sgp",
+    "name": "Xiaomi Token Plan SGP",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "XIAOMI_TOKEN_PLAN_SGP_API_KEY",
+    "baseUrl": "https://token-plan-sgp.xiaomimimo.com/v1"
+  },
+  {
+    "id": "zai",
+    "name": "Z.AI",
+    "kind": "api",
+    "api": "anthropic-messages",
+    "env": "ZAI_API_KEY",
+    "baseUrl": "https://api.z.ai/api/anthropic"
+  },
+  {
+    "id": "zai-coding-plan",
+    "name": "Z.AI Coding Plan",
+    "kind": "login",
+    "api": "anthropic-messages",
+    "env": "",
+    "baseUrl": ""
+  },
+  {
+    "id": "zenmux",
+    "name": "ZenMux",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "ZENMUX_API_KEY",
+    "baseUrl": ""
+  },
+  {
+    "id": "zhipu-coding-plan",
+    "name": "Zhipu Coding Plan",
+    "kind": "login",
+    "api": "openai-completions",
+    "env": "ZHIPU_API_KEY",
+    "baseUrl": "https://open.bigmodel.cn/api/coding/paas/v4"
+  },
+  {
+    "id": "huawei-maas",
+    "name": "华为云 MaaS",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "HUAWEI_MAAS_API_KEY",
+    "baseUrl": "https://api.modelarts-maas.com/v1"
+  },
+  {
+    "id": "sensenova",
+    "name": "商汤日日新",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SENSENOVA_API_KEY",
+    "baseUrl": "https://api.sensenova.cn/v1"
+  },
+  {
+    "id": "infiniai",
+    "name": "无问芯穹",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "INFINIAI_API_KEY",
+    "baseUrl": "https://cloud.infini-ai.com/maas/v1"
+  },
+  {
+    "id": "skywork",
+    "name": "昆仑万维",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SKYWORK_API_KEY",
+    "baseUrl": "https://api.skywork.ai/v1"
+  },
+  {
+    "id": "volcengine-ark",
+    "name": "火山方舟",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "ARK_API_KEY",
+    "baseUrl": "https://ark.cn-beijing.volces.com/api/v3"
+  },
+  {
+    "id": "baichuan",
+    "name": "百川",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "BAICHUAN_API_KEY",
+    "baseUrl": "https://api.baichuan-ai.com/v1"
+  },
+  {
+    "id": "hunyuan",
+    "name": "腾讯混元",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "HUNYUAN_API_KEY",
+    "baseUrl": "https://api.hunyuan.cloud.tencent.com/v1"
+  },
+  {
+    "id": "spark",
+    "name": "讯飞星火",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "SPARK_API_KEY",
+    "baseUrl": "https://spark-api-open.xf-yun.com/v1"
+  },
+  {
+    "id": "dashscope",
+    "name": "阿里云百炼",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "DASHSCOPE_API_KEY",
+    "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  },
+  {
+    "id": "lingyi",
+    "name": "零一万物",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "LINGYI_API_KEY",
+    "baseUrl": "https://api.lingyiwanwu.com/v1"
+  },
+  {
+    "id": "modelscope",
+    "name": "魔搭",
+    "kind": "api",
+    "api": "openai-completions",
+    "env": "MODELSCOPE_API_KEY",
+    "baseUrl": "https://api-inference.modelscope.cn/v1"
+  }
+]

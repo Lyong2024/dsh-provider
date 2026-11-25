@@ -1,0 +1,40 @@
+# Dependencies. This repo uses pnpm (see packageManager).
+node_modules/
+package-lock.json
+
+# Runtime state written by the plugin itself (never commit these)
+journal.jsonl
+apply-trace.log
+
+# Local account snapshots / credentials — must never be published
+.factory/
+auth.v2.*
+accounts/
+active.json
+*.prem.factory.ai
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Release build artifact. CI uploads the pack; do not commit it.
+*.tgz
+
+# Compiled output. Source is src/**/*.ts. Never hand-edit dist/.
+dist/
+*.tsbuildinfo
+
+# Local CodeGraph index
+.codegraph/
+
+# Local secrets and package-manager noise
+.env
+.env.*
+pnpm-debug.log*
+
+# Local scratch: reference trees, design drafts, and isolated DSH installs.
+# Not part of this repository.
+/temp/
